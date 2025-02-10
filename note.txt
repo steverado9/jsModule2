@@ -1,9 +1,39 @@
     Module
+A module is a chunk of code in an external file that performs a specific task or function.
 This helps keep your code short 
 The re-useability is high
 The code becomes more cleaner
 Whenever we talk about Modules, we automatically talk about import and export
     Import and Export
- How to export: By using the export keyword
- How to import: use the import keyword
+-This helps share things from one module to another module.
+-You import and export anything. Be it function, variable etc.
+    Types of export and import
+1)named import and export: We export using the name of the variable and we also import using the same name.
+-if you are exporting multiple things use named export.
+2)default import and export: We use the keyword dafult when exporting
+-if you want to export one thing from a module, use default export.
+-when importing a default value, it is not madetory to use the same name as the export.
+
+    Aliases
+This is while importing something from another module, you can rename it to avoid name conflict.
+-you can do many aliases as you wish.
+
+    NameSpaces
+This is used when you have so many components that you are exporting, you can be naming them and be adding ",".
+Instead you use name spaces.
+-We use * and a name when importing alot of exports.
+-(*) means everything from the export module.
+
+    Combined exports
+This is a very important feature when you have multiple modules which are exporting things and you have to import them 
+into multiple places, you can combine them into a single module and from there, you will export it once and use it.
+
+    Dynamic imports
+-static import and export cannot be conditional and they are always written at the top of your code.
+-dynamic import can be used anywhere in the code.
+-dybamic import can be wrapped inside a conditional statement.
+
+    promise.all() Method
+This is an inbuilt javascript method that can take lots of promises.
+ 
   

@@ -1,0 +1,11 @@
+You often need to manually refresh the browser to see the changes you make in your code.
+The Live Server extension for Visual Studio Code automates this process by creating a local development server.
+With Live Server,
+any time you save your HTML, CSS, or JavaScript files, the browser will automatically refresh to reflect those changes instantly.
+    Steps for Installing and Enabling Live Server on VS Code
+Step 1: Open Extensions Panel
+Step 2: Search for Live Server
+step 3: Verify the Installation
+Step 4: Launch Live Server
+Step 5: Live Preview in Browser
+Step 6: Stop Live Server (Optional)
