@@ -1,4 +1,4 @@
-//Default export 
+//Default export //
 const sayName = () => {
     return 'tapaScript';
 }

@@ -8,4 +8,4 @@ const sub = (a, b) => {
 }
 
 export {sum, sub}
-//exporting by name
+//exporting by name//

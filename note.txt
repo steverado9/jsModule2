@@ -35,5 +35,6 @@ into multiple places, you can combine them into a single module and from there, 
 
     promise.all() Method
 This is an inbuilt javascript method that can take lots of promises.
+
  
   

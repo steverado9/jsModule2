@@ -7,7 +7,7 @@
 //for dynamic import
 if (true) {
     const { sayHi, sayHola } = await import('./dynamicImport.js'); //This returns a promise 
-    //You can resolve a promise in many ways, here we use await key word
+    //You can resolve a promise in many ways, here we use await key word//
 
     sayHi();
 
